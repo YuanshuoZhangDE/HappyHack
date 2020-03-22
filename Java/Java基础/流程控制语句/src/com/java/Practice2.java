@@ -17,7 +17,9 @@ public class Practice2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个数据：");
         int num = sc.nextInt();
-        if (num >= 90 && num <= 100) {
+        if (num > 100 || num < 0) {
+            System.out.println("无效数据");
+        }else if (num >= 90 && num <= 100) {
             System.out.println("优秀");
         }else if (num >= 80 && num < 90) {
             System.out.println("好");
