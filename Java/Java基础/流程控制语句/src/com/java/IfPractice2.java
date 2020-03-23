@@ -12,7 +12,7 @@ import java.util.Scanner;
     - 60-70 及格
     - 60以下不及格
  */
-public class Practice2 {
+public class IfPractice2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个数据：");

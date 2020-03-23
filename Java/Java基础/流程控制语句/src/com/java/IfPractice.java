@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 键盘录入两个数据，获取这两个数据的较大值
  */
-public class Practice {
+public class IfPractice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入第一个数据：");
