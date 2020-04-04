@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Description:
  *          键盘录入一个字符串，把该字符串的首字母转换成大写，其余为小写。(只考虑英文大小写字母字符)
  */
-public class DemoPractice3 {
+public class StringPractice3 {
     public static void main(String[] args) {
         System.out.print("请输入一串英文字符：");
         Scanner sc = new Scanner(System.in);
