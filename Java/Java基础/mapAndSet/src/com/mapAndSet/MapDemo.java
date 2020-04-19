@@ -2,6 +2,7 @@ package com.mapAndSet;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @Author: Yuanshuo
@@ -23,5 +24,17 @@ public class MapDemo {
         map.remove("001");
 
         map.clear();
+        map.put("001", "张三");
+        map.put("002", "张四");
+        map.put("003", "张五");
+        map.put("004", "张六");
+        map.put("005", "张七");
+        Set<String> set = map.keySet();
+        for (String key:set
+             ) {
+            String value = map.get(key);
+            System.out.println(key+":"+value);
+        }
+        }
     }
-}
+
